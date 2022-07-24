@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo</title>
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <h1>ToDo</h1>
+
+    <div id="container">
+
+      <!-- container for taking input -->
+      <div id="input-container">
+        <img src="images/files.svg" />
+
+        <input
+          type="text"
+          placeholder="Add Todo"
+          id="todo-text"
+          class="add-todo"
+        />
+
+
+        <img src="images/add.png" alt="Add" id="add-btn" />
+      </div>
+
+      <span id="total-todos"
+        >Total tasks: <span id="todo-counter">0</span></span
+      >
+
+      <hr />
+
+      <!-- todos will be added to this unordered list -->
+      <ul id="list">
+        <!-- <li>
+          <input
+            type="checkbox"
+            id="task1"
+            data-id="12"
+            class="custom-checkbox"
+          />
+          <label for="task1" class="custom-checkbox">Buy groceries</label>
+
+          <div>
+          <img src="images/delete.svg" class="delete" data-id="12" />
+        </li>
+      </div> -->
+
+      </ul>
+
+      <hr />
+
+      <span id="todos-left"
+        >Tasks left: <span id="todos-left-counter"> 0 </span></span
+      >
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
