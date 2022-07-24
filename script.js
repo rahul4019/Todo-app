@@ -112,7 +112,7 @@ function notify(text) {
   window.alert(text);
 }
 
-// handles  of "ENTER" and click of "add-btn"
+// handles oprations for  "ENTER" and click of "add-btn"
 function handleKeypress(e) {
   const target = e.target;
   if (e.key === "Enter" || target.id === "add-btn") {
