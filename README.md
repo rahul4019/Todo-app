@@ -1,7 +1,7 @@
 # ToDo app
 A simple Todo app, Implemented using localStorage so todos don't get vanished on refreshing the website.
 
-### Hosted link: [ToDo](https://rahul4019.github.io/Todo-app.github.io/)
+### Hosted link: [ToDo](https://rahul4019.github.io/Todo-app/)
 
 ## Tools used:
 * HTML
